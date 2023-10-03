@@ -1,1 +1,1 @@
-alert("MENSAGEM");
+function tocaSomPom()
