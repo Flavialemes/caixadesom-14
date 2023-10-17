@@ -6,5 +6,8 @@ function tocaSomPom(){
 //chamando/invocando a função tocaSomPom pelo clique do botão
 document.querySelector('.tecla_pom').onclick = tocaSomPom;
 
+//referência constante listaDeTeclas, buscando todos os botões
 const listaDeTeclas = document.querySelectorAll('.tecla');
-listaDeTeclas[1].onclick= TocaSomClap;
+
+//chamando a função tocaSomPom pelo item"0" da listaDeTecla
+listaDeTeclas[0].onclick= TocaSomPom;
