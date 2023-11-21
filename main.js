@@ -24,9 +24,8 @@ tecla.onkeyup = funtion(evento){
     tecla.classList.add('ativa');
  }
    }
-tecla.onkeyup = funtion(){
+tecla.onkeyup = funtion()
  tecla.classList.remove('ativa');
 
 }
 
-}
