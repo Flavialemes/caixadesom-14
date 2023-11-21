@@ -19,7 +19,7 @@ for (let contador =0;contador < listaDeTeclas.length;contador++){
     tecla.onclick= function(){
         tocaSom(idAudio)
 }
-   tecla.onkeyup = funtion(evento){
+   tecla.onkeyup = funtion(evento)
        if(evento.code != 'Tab'){
     tecla.classList.add('ativa');
 }
