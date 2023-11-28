@@ -2,7 +2,7 @@
   --roxoclaro: #be5fe6;
   --roxo: rgb(110, 11, 240);
   --rosa: #c41cde;
-  --salmao: #eabebe;
+  --salmao: #ffc4c4;
   --luz: rgba(180, 105, 123, 0.048)
 }
 
@@ -23,7 +23,7 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #e9e8e8 0%,#f35656 100%);
+  background: linear-gradient(to bottom, #e9e8e8 0%,#ec9090 100%);
   box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
   border-radius: 30px;
   display: grid;
